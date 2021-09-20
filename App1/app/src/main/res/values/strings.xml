@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PUCMM</string>
+    <string name="nombre">Digite un nombre...</string>
+    <string name="apellido">Digite un apellido...</string>
+    <string name="genero">Genero:</string>
+    <string name="nacimiento">Nacimiento:</string>
+    <string name="txtfecha">Fecha de Nacimiento</string>
+    <string name="pregunta">Le gusta programar ?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="lenguaje">Lenguaje:</string>
+    <string name="java">Java</string>
+    <string name="js">JS</string>
+    <string name="c">C/C++</string>
+    <string name="python">Python</string>
+    <string name="go">Go Lang</string>
+    <string name="c1">C #</string>
+    <string name="benviar">Enviar</string>
+    <string name="blimpiar">Limpiar</string>
+    <string-array name="generos">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+</resources>
