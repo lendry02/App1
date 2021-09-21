@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">AppPermisos</string>
+    <string name="app_name">App Permisos</string>
+    <string name="msg_permiso">Choose what to allow App to  Access</string>
+    <string name="storage">Storage</string>
+    <string name="location">Location</string>
+    <string name="camara">Camara</string>
+    <string name="phone">Phone</string>
+    <string name="contacts">Contacts</string>
+    <string name="dstorage">access photos,media, and files on your device</string>
+    <string name="dlocation">access this device`s location</string>
+    <string name="dcamara">take pictures and record video</string>
+    <string name="dphone">make and manage phone calls</string>
+    <string name="dcontacts">access your contacts</string>
+    <string name="bcontinue">Continue</string>
+    <string name="bcancel">Cancel</string>
+
 </resources>
