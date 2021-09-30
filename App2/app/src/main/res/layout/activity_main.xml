@@ -50,13 +50,13 @@
 
     <TextView
         android:id="@+id/txtlocation"
-        android:layout_width="74dp"
+        android:layout_width="77dp"
         android:layout_height="24dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/location"
-        android:textSize="20sp"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtdstorage" />
 
@@ -185,22 +185,29 @@
         android:id="@+id/bcontinue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="SendPermiss"
         android:text="@string/bcontinue"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opContacts"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/bcancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:onClick="CerrarApp"
         android:text="@string/bcancel"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/bcontinue" />
+        app:layout_constraintEnd_toStartOf="@+id/bcontinue"
+        app:layout_constraintTop_toBottomOf="@+id/opContacts"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
